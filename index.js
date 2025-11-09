@@ -85,6 +85,10 @@ tl.to(
   "anim"
 );
 
-tl2.to("#main", {
-  backgroundColor: "#fff",
-});
+tl2.to(
+  "#main",
+  {
+    backgroundColor: "#fff",
+  },
+  "anim"
+);
