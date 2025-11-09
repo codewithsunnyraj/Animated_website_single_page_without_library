@@ -39,6 +39,20 @@ function init() {
 }
 init();
 
+var crsor = document.querySelector(".cursor");
+var main = document.getElementById("main");
+main.addEventListener("mousemove", (dets) => {
+  crsor.style.left = dets.x + "px";
+  crsor.style.top = dets.y + "px";
+});
+
+// var vdo = document.getElementsByTagName("video");
+// main.addEventListener("mouseenter", (dets) => {
+//   crsor.style.left = dets.x + "px";
+//   crsor.style.top = dets.y + "px";
+//   crsor.style.backgroundColor = "red"
+// });
+
 var tl = gsap.timeline({
   scrollTrigger: {
     trigger: ".page1 .text-heading h1",

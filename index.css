@@ -11,6 +11,17 @@ body {
   width: 100%;
 }
 
+.cursor {
+  height: 15px;
+  width: 15px;
+  position: fixed;
+  background-color: red;
+  border-radius: 50%;
+  z-index: 10000;
+  mix-blend-mode: difference;
+  transition: all linear 0.3s;
+}
+
 #main {
   background-color: #0f0d0d;
 }
@@ -138,7 +149,6 @@ body {
   padding: 2vw 5vw;
 }
 
-
 .page3 h1 {
   font-size: 8vw;
   color: rgb(0, 0, 0);
@@ -146,15 +156,15 @@ body {
   padding: 40px 4vw;
 }
 
-.page3 .video-section{
+.page3 .video-section {
   display: flex;
   justify-content: space-between;
 }
 
-.page3 .video-section video{
+.page3 .video-section video {
   width: 37vw;
 }
 
-.page3 .video-section .first_video_part{
+.page3 .video-section .first_video_part {
   margin-top: 10vw;
 }
