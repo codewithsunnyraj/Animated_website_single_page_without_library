@@ -78,3 +78,56 @@ body {
   transform: translate(-50%, 0);
   width: 60%;
 }
+
+.page2 {
+  min-height: 130vh;
+  width: 100%;
+}
+
+.page2 h1 {
+  font-size: 8vw;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  padding: 40px 4vw;
+}
+
+.page-container {
+  /* background-color: red; */
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw;
+}
+
+.page2-left {
+  /* background-color: blue; */
+  width: 36%;
+}
+
+.page2-right {
+  /* background-color: blue; */
+  width: 40%;
+  
+}
+
+.page2-left h2 {
+  font-size: 3.5vw;
+  font-weight: 300;
+  color: #111;
+}
+
+.page2-right p {
+  font-size: 23px;
+}
+
+.page2-right button {
+  width: 100%;
+  padding: 6px 0px;
+  color: black;
+  background-color: aqua;
+  border-radius: 50px;
+  margin-top: 10px;
+  border: 0px;
+}
